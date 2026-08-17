@@ -1,0 +1,17 @@
+Dataset,Model,Version,Metric,Value
+DataCo,Logistic Regression,Threshold 0.50,Accuracy,0.698
+DataCo,Logistic Regression,Threshold 0.40,Accuracy,0.641
+DataCo,Logistic Regression,Threshold 0.50,Precision,0.885
+DataCo,Logistic Regression,Threshold 0.40,Precision,0.658
+DataCo,Logistic Regression,Threshold 0.50,Recall,0.543
+DataCo,Logistic Regression,Threshold 0.40,Recall,0.778
+DataCo,Logistic Regression,Threshold 0.50,F1-score,0.673
+DataCo,Logistic Regression,Threshold 0.40,F1-score,0.713
+DataCo,Logistic Regression,Threshold 0.50,ROC-AUC,0.745
+DataCo,Logistic Regression,Threshold 0.40,ROC-AUC,0.745
+Retail,Random Forest,Baseline,MAE,69.052
+Retail,Random Forest,Tuned (retained baseline),MAE,69.052
+Retail,Random Forest,Baseline,RMSE,88.309
+Retail,Random Forest,Tuned (retained baseline),RMSE,88.309
+Retail,Random Forest,Baseline,R2,0.341
+Retail,Random Forest,Tuned (retained baseline),R2,0.341
